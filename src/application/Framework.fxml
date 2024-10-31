@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-4.0" prefHeight="542.0" prefWidth="818.0">
+         <children>
+            <Button layoutX="524.0" layoutY="168.0" mnemonicParsing="false" text="Search" />
+            <TextField layoutX="292.0" layoutY="168.0" onAction="#search" prefHeight="26.0" prefWidth="229.0" promptText="Enter location" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
